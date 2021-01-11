@@ -1,0 +1,70 @@
+body{
+padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+h3{
+    color: red;
+}
+.windows{
+    width: 100%;
+    height: inherit;
+    background: url("./Images/fon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.navbar-brand img{
+    width: 50px;
+    height: 50px;}
+
+
+.header{
+    /*border: #0066FF 1px solid;*/
+    width: 100%;
+    min-height: 300px;
+
+    background: url('./Images/Utv_BL.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn-outline-secondary{
+    width: 145px;
+}
+.d-block{
+    height: 300px;
+}
+.carousel{
+    width: 100%;
+
+}
+.carousel-inner{
+    height: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
