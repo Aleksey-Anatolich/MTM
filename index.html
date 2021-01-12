@@ -14,54 +14,103 @@
     <title>M.T.M</title>
 </head>
 <body>
-<!-- Header----------------------->
-    <div class="windows">
 
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"><img src="Images/Utv_BL.png"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-
-
+<div class="window">
+<!-- Header---------------------------------------------------------------------------------->
 
         <div class="header">
-            <div class="container">
-                <div class="row">
-                    <div class="nav-bar">
-                        <button type="button" class="btn btn-outline-secondary btn-lg">Афиша</button>
-                        <button type="button" class="btn btn-outline-secondary btn-lg">Музыка</button>
-                        <button type="button" class="btn btn-outline-secondary btn-lg">Видео</button>
-                        <button type="button" class="btn btn-outline-secondary btn-lg">Фотоальбом</button>
-                        <button type="button" class="btn btn-outline-secondary btn-lg">Участники группы</button>
-                        <button type="button" class="btn btn-outline-secondary btn-lg">Контакты</button>
+            <div class="header__container">
+                <div class="logo">
+                    <a href="#"><img src="./Images/Utv_BL.png" alt="logo"></a>
+                </div>
+                <div class="navigation">
+                    <div class="navigation__list">
+                        <div class="navigation__item"><a href="#">События</a></div>
+                        <div class="navigation__item"><a href="#">Концерты</a></div>
+                        <div class="navigation__item"><a href="#">Группа</a></div>
+                        <div class="navigation__item"><a href="#">Музыка</a></div>
+                        <div class="navigation__item"><a href="#">Видео</a></div>
+                        <div class="navigation__item"><a href="#">Фото</a></div>
+                        <div class="navigation__item"><a href="#">Магазин</a></div>
+                        <div class="navigation__item"><a href="#">Контакты</a></div>
+                    </div>
+                </div>
+                <div class="soc-net">
+                    <div class="soc-net__list">
+                        <div class="soc-net__list_items">
+                            <a href="https://vk.com/m__t__m" target="_blank">
+                                <img src="./Images/soc-icon/vk.png" alt="vk">
+                            </a>
+                        </div>
+                        <div class="soc-net__list_items">
+                            <a href="https://www.instagram.com/m.t.m.band/" target="_blank">
+                                <img src="./Images/soc-icon/inst.png" alt="in">
+                            </a>
+                        </div>
+                        <div class="soc-net__list_items">
+                            <a href="https://www.facebook.com/groups/754279488036191" target="_blank">
+                                <img src="./Images/soc-icon/fb.png" alt="fb">
+                            </a>
+                        </div>
+                        <div class="soc-net__list_items">
+                            <a href="https://www.youtube.com/c/mtmband" target="_blank">
+                                <img src="./Images/soc-icon/yt.png" alt="yt">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-<!--  слайдер с афишей      -->
-        <div class="slidbox">
-            <div class="container">
-                <div class="row">
+
+<!------------------------------------------------------------------------------------------->
+<!-------Poster-------------------------------------------------------->
+
+        <div class="poster">
+            <div class="poster__container">
+                <div class="poster__slid">
+                    <div class="poster__slid__item">
+                        <img src="./Images/zima.jpg" alt="">
+                    </div>
+                    <div class="poster__slid__data"><span>1 февраля</span></div>
+                    <div class="poster__slid__news"><span>Презентация нового трека</span></div>
+                    <div class="poster__slid__name"><span>"ВЕЧНАЯ ЗИМА"</span></div>
+
+                </div>
+
+            </div>
+        </div>
+<!-------------------------------------------------------------->
+<!-- Events--------------------------------   -->
+        <div class="events">
+            <div class="events__container">
+                <div class="events__name"><span>События / видео</span></div>
+                <div class="event__item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/o2gRiH7l7-4" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div><span>название события</span></div>
+                </div>
+                <div class="event__item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/9edRUxdOoJ0" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div><span>название события</span></div>
+                </div>
+                <div class="event__item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5lejTOj9hJ4" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div><span>название события</span></div>
+                </div>
+                <div class="event__item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/LjYPJELj2kI" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div><span>название события</span></div>
+                </div>
+                <div class="events__name2"><span><a href="#">Смотреть всё</a></span></div>
+            </div>
+        </div>
+
+<!-------------------------------------------------->
+<!--baner-slider--------------------------->
+
+        <div class="baner">
+            <div class="baner__container">
+                <div class="baner__text"><span>Афиша</span></div>
+                <div class="baner__carousel">
                     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 
                         <div class="carousel-inner">
@@ -115,33 +164,6 @@
         </div>
 
 
-
-
-<!--            <div>-->
-
-<!--                <div class="wan">-->
-<!--                    <p><img src="Images/hat.jpg" width="1080" height="272" /></p>-->
-<!--                    <table width="1080" height="48" border="1">-->
-<!--                        <tr>-->
-<!--                            <th width="173" bgcolor="#000000" scope="col"><h3><a href="Afisha.html">Афиша</a></a></h3></th>-->
-<!--                            <th width="173" bgcolor="#333333" scope="col"><h3><a href="Music.html">Музыка</a></h3></th>-->
-<!--                            <th width="173" bgcolor="#666666" scope="col"><h3><a href="Video.html">Видео</a></h3></th>-->
-<!--                            <th width="173" bgcolor="#666666" scope="col"><h3><a href="Foto.html">Фотоальбом</a></h3></th>-->
-<!--                            <th width="175" bgcolor="#333333" scope="col"><h3><a href="Members.html">Участники группы</a></h3></th>-->
-<!--                            <th width="173" bgcolor="#000000" scope="col"><h3><a href="Contacts.html">Контакты</a></h3></th>-->
-<!--                        </tr>-->
-<!--                    </table>-->
-<!--                    <h1>АФИША</h1>-->
-<!--                    <p>&nbsp;</p>-->
-<!--                    <p> 27 октября - Москва, клуб "Stars family"</p>-->
-<!--                    <p>28 октября - Брест, клуб &quot;Coyote&quot;</p>-->
-<!--                    <p>10 ноября - Псков, клуб &quot;Т.И.Р&quot;</p>-->
-<!--                    <p>11 ноября - Великие Луки, клуб &quot;Hell bloack 13&quot;</p>-->
-<!--                    <p>12 ноября - Витебск, клуб &quot;Dietrish&quot;</p>-->
-<!--                    <a href="Index.html"><img src="Images/Utv_BL.png" alt="" width="137" height="125" /></a></div>-->
-
-<!--                &lt;!&ndash; Contacts -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&ndash;&gt;-->
-
 <!--                <h1>Контакты</h1>-->
 <!--                <p>Группа в Вконтакте: <a href="http://vk.com/m__t__m" style="color: #06F">www.vk.com/m__t__m</a></p>-->
 <!--                <p>ПО вопросам организации концертов в Беларуси и других странах мира (Кроме РФ) обращаться по телефонам:</p>-->
@@ -190,100 +212,7 @@
 
 
 
-
-
-
-<!--        <h1>Участники группы</h1>-->
-<!--        <table width="1073" border="1" align="center">-->
-<!--            <caption>&nbsp;-->
-<!--            </caption>-->
-<!--            <tr>-->
-<!--                <td width="260" bgcolor="#000000" style="color: #FFF; font-family: 'Capture it'; text-align: center;"><p>Гуминский Юрий</p>-->
-<!--                    <p style="color: #F00; font-family: a_LCDNova;">(вокал, гитара)</p>-->
-<!--                    <p><a href="http://vk.com/id7230776"><img src="Images/Gum.jpg" width="245" height="306" longdesc="http://vk.com/id21614569" /></a></p></td>-->
-<!--                <td width="251" bgcolor="#000000" style="color: #FFF; font-family: 'Capture it';"><p>Данилов Геннадий</p>-->
-<!--                    <p style="color: #F00; font-family: a_LCDNova;">(гитара, бэк-вокал)</p>-->
-<!--                    <p><a href="http://vk.com/gennadz"><img src="Images/Dan.jpg" width="231" height="306" /></a></p></td>-->
-<!--                <td width="256" bgcolor="#000000"><p>Рожков Никита</p>-->
-<!--                    <p style="color: #F00; font-family: a_LCDNova;">(Барабаны)</p>-->
-<!--                    <p><a href="http://vk.com/id157423915"><img src="Images/Roj.jpg" width="239" height="307" /></a></p></td>-->
-<!--                <td width="278" bgcolor="#000000"><p>Медушевский Алексей</p>-->
-<!--                    <p style="color: #F00; font-family: a_LCDNova;">(бас-гитара, бэк-вокал)</p>-->
-<!--                    <p><a href="http://vk.com/id21614569"><img src="Images/Med.jpg" width="247" height="305" /></a></p></td>-->
-<!--            </tr>-->
-<!--        </table>-->
-<!--        <p>&nbsp;</p>-->
-<!--        <a href="Index.html"><img src="Images/Utv_BL.png" alt="" width="137" height="125" /></a></div>-->
-
-
-
-
-
-
-<!--        <h1>Музыка</h1>-->
-<!--        <table width="1100" border="1">-->
-<!--            <tr>-->
-<!--                <td style="font-family: 'DS Crystal'; font-size: 36px; color: #F00;">&quot;НУЛЕВОЙ&quot; (2016)</td>-->
-<!--            </tr>-->
-<!--            <tr>-->
-<!--                <td><p class="h5"><a href="Sound/01. M.T.M. - Безвольный солдат (НУЛЕВОЙ - 2016).mp3" style="font-size: 18px; color: #FFF;">1. m.t.m. - Безвольный солдат</a><br />-->
-<!--                    <a href="Sound/02. M.T.M. - Swingers party (НУЛЕВОЙ - 2016).mp3" style="font-size: 18px; color: #FFF;">2. m.t.m. - Swinger-party </a><br />-->
-<!--                    <a href="Sound/03. M.T.M. - Нарисованный вампир  (НУЛЕВОЙ - 2016).mp3" style="font-size: 18px; color: #FFF;">3. m.t.m. - Нарисованный вампир</a><br />-->
-<!--                    <a href="Sound/04. M.T.M. - Королевский шут (НУЛЕВОЙ - 2016).mp3" style="font-size: 18px; color: #FFF;">4. m.t.m. - Королевский шут</a><br />-->
-<!--                    <a href="Sound/05. М.Т.М. - Мир наступит! (НУЛЕВОЙ - 2016).mp3" style="font-size: 18px; color: #FFF;">5. m.t.m. - Мир наступит</a><br />-->
-<!--                    <a href="Sound/06. M.T.M. - Город забытых эмоций  (НУЛЕВОЙ - 2016).mp3" style="font-size: 18px; color: #FFF;">6. m.t.m. - Город забытых эмоций</a><br />-->
-<!--                    <a href="Sound/07. M.T.M. - Цярпi братка (НУЛЕВОЙ - 2016).mp3" style="font-size: 18px; color: #FFF;">7. m.t.m. - Цярпi Братка</a><br />-->
-<!--                    <a href="Sound/08. M.T.M. - Пусто пусто (НУЛЕВОЙ - 2016).mp3" style="color: #FFF; font-size: 18px;">8. m.t.m. - Пусто-пусто</a><br />-->
-<!--                    <a href="Sound/09. M.T.M. - ОНО (НУЛЕВОЙ - 2016).mp3" style="font-size: 18px; color: #FFF;">9. m.t.m. - Оно</a></p>-->
-<!--                    <p style="font-family: 'DS Crystal'; font-size: 24px; color: #333;">BONUS  TREK&rsquo;S </p>-->
-<!--                    <p>        <a href="Sound/10. M.T.M. - Саяны (cover LT, НУЛЕВОЙ - 2016).mp3" style="font-size: 18px; color: #FFF;">10.  m.t.m. - Саяны (Caver LT)</a><br />-->
-<!--                        <a href="Sound/11. M.T.M. - Воля (cover ZNAKI, НУЛЕВОЙ - 2016).mp3" style="font-size: 18px; color: #FFF;">11.  m.t.m. - Воля (caver ZNAKI)            </a><br />-->
-<!--                    </p>-->
-<!--                    <p>&nbsp;</p></td>-->
-<!--            </tr>-->
-<!--            <tr>-->
-<!--                <td style="font-family: 'DS Crystal'; font-size: 36px; color: #F00;">Single 20i7 &quot;Джульетта&quot;</td>-->
-<!--            </tr>-->
-<!--            <tr>-->
-<!--                <td><p><a href="Sound/M.T.M. - Джульетта (Single 2016).mp3" style="font-size: 18px; color: #FFF;">m.t.m. - Джульетта (Single 2017)</a></p></td>-->
-<!--            </tr>-->
-<!--        </table>-->
-<!--        <p>&nbsp;</p>-->
-<!--        <p><a href="http://vk.com/audios-56212521" style="color: #06F">Больше аудиотреков тут...</a></p>-->
-<!--        <a href="Index.html"><img src="Images/Utv_BL.png" alt="" width="137" height="125" /></a></div>-->
-
-
-
-<!--        <-->
-<!--        <h1>ВИДЕО</h1>-->
-<!--        <table width="1050" border="1">-->
-<!--            <tr>-->
-<!--                <td width="501"><p>M.T.M. - Мир наступит (2015)</p>-->
-<!--                    <p><a href="http://www.youtube.com/watch?v=PZjAn0H18nM&amp;list=PLSZK1Od68YBIQ1hjvcTTpY2qLZHRWNM5t&amp;index=2"><img src="Images/VideoMir.jpg" width="443" height="275" /></a></p></td>-->
-<!--                <td width="503"><p>M.T.M. - Пусто-пусто</p>-->
-<!--                    <p><a href="http://www.youtube.com/watch?v=ubRD1jQGpH8&amp;index=1&amp;list=PLSZK1Od68YBIQ1hjvcTTpY2qLZHRWNM5t"><img src="Images/VudeoPusto.jpg" width="487" height="273" /></a></p></td>-->
-<!--            </tr>-->
-<!--        </table>-->
-<!--        <p><a href="http://www.youtube.com/channel/UCa3BepxSze2Ea1n-GnByOsA/featured" style="font-family: 'Capture it'; color: #06F;">Больше видео группы тут...</a></p>-->
-<!--        <p>&nbsp;</p>-->
-<!--        <a href="Index.html"><img src="Images/Utv_BL.png" alt="" width="137" height="125" /></a></div>-->
-
-<!--        </div>-->
-
-
-
-        </div>
-
-
-
-
-
-
-
-
-
-
-
+</div>
 <script src="js.js" ></script>
 </body>
 </html>

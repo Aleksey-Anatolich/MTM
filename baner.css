@@ -1,0 +1,36 @@
+.baner{
+    width: 100%;
+    height: auto;
+}
+.baner__container{
+    width: 85%;
+    margin: 0 auto;
+    text-align: -webkit-center;
+}
+.baner__text{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 200%;
+    font-weight: bold;
+    color: #8E9FFF;
+}
+.baner__carousel{
+    max-width: 960px;
+    /*align-items: center;*/
+}
+.carousel{
+    margin: 0 auto;
+}
+
+.baner__carousel img{
+    max-width: 960px;
+    max-height: 638px;
+
+}
+.carousel h3{
+    color: #8E9FFF
+}
+.carousel p{
+    color: #8E9FFF
+}
