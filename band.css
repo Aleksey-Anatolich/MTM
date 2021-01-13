@@ -1,0 +1,37 @@
+.band{
+    width: 100%;
+    height: auto;
+}
+.band__container{
+    width: 100%;
+    margin: 30px auto;
+    position:relative;
+
+}
+.band__foto{
+    width: 100%;
+    height: auto;
+    position: relative;
+
+}
+.band__foto img{
+    width: inherit;
+    height: auto;
+
+
+}
+.band__music{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: -90px;
+
+}
+.band__music__platform img{
+    width: 208px;
+    height: 60px;
+    opacity: 80%;
+}

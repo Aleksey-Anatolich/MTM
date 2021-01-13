@@ -6,34 +6,54 @@
 .poster__container{
     width: 80%;
     margin: 0 auto;
+
 }
 .poster__slid{
-    max-width: 960px;
-    max-height: 638px;
+    width: 960px;
+    height: 638px;
     margin: 0 auto;
+    position: relative;
+    /*background: #BB55FF;*/
+    /*opacity: 50%;*/
+}
+poster__slid__item{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+    /*background: red;*/
 }
 .poster__slid__data{
-
-    position: relative;
-    top: -530px;
-    left: 90px;
-    color: #FFAC9B;
+    position: absolute;
+    z-index: 1;
+    top: 160px;
+    left: 115px;
+    /*top: -530px;*/
+    /*left: 90px;*/
+    color: #9a9a9a;
     font-size: 250%;
     font-weight: bold;
 }
 .poster__slid__news{
     width: 400px;
-    position: relative;
-    top: -490px;
-    left: 600px;
-    color: #BB55FF;
+    height: 100px;
+    /*position: relative;*/
+    position: absolute;
+    object-position: right;
+    top: 195px;
+    right: -30px;
+    /*top: -490px;*/
+    /*left: 600px;*/
+    color: #827f84;
     font-size: 200%;
     font-weight: bold;
 }
 .poster__slid__name{
-    position: relative;
-    top: -410px;
-    left: 280px;
+    position: absolute;
+    top: 290px;
+    left: 165px;
+    /*top: -410px;*/
+    /*left: 280px;*/
     color: #8E9FFF;
     font-size: 250%;
     font-weight: bold;

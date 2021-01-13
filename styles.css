@@ -2,6 +2,8 @@
 @import "poster.css";
 @import "events.css";
 @import "baner.css";
+@import "band.css";
+@import "footer.css";
 
 body{
     padding: 0;

@@ -34,3 +34,11 @@
 .carousel p{
     color: #8E9FFF
 }
+.baner-oll-video{
+    width: 100%;
+    font-size: 150%;
+    font-weight: bold;
+    color: #8E9FFF;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
