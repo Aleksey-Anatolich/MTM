@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b5c961c-b456-4253-aca0-f73f1d196c73" name="Default Changelist" comment="new dizign: new header. add poster,band-event,baner.">
-      <change afterPath="$PROJECT_DIR$/Images/soc-icon/app_apple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/soc-icon/app_google.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/soc-icon/app_yandex.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/soc-icon/fb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/soc-icon/inst.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/soc-icon/vk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/soc-icon/yt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/zima.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baner.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/events.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poster.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +29,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Udemu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mtm_mian" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -86,8 +73,25 @@
       <workItem from="1603105499673" duration="8717000" />
       <workItem from="1609917965896" duration="3340000" />
       <workItem from="1610222680774" duration="295000" />
-      <workItem from="1610223502450" duration="66456000" />
+      <workItem from="1610223502450" duration="79341000" />
+      <workItem from="1610557123853" duration="1086000" />
+      <workItem from="1610558772049" duration="2529000" />
     </task>
+    <task id="LOCAL-00001" summary="new dizign: new header. add poster,band-event,baner.">
+      <created>1610493568091</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610493568091</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Firs page finished/ add footer.css, band.css">
+      <created>1610559440821</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610559440821</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,7 +102,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -107,6 +113,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="redizign: new header. add poster,band-event,baner." />
     <MESSAGE value="new dizign: new header. add poster,band-event,baner." />
-    <option name="LAST_COMMIT_MESSAGE" value="new dizign: new header. add poster,band-event,baner." />
+    <MESSAGE value="Firs page finished/ add footer.css, band.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Firs page finished/ add footer.css, band.css" />
   </component>
 </project>
